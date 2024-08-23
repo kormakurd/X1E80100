@@ -1,0 +1,3 @@
+
+https://git.codelinaro.org/abel.vesa/linux/-/tree/x1e80100-6.11-rc3-dp-wip-dbg?ref_type=heads
+https://git.codelinaro.org/abel.vesa/linux/-/archive/x1e80100-6.11-rc3-dp-wip-dbg/linux-x1e80100-6.11-rc3-dp-wip-dbg.tar.bz2
