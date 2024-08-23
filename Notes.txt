@@ -1,3 +1,20 @@
+I used the Latest Oracular Desktop iso, but used the kernel below, compiled with the config in the other folder.
 
+Update grub.cfg to use your kernel and device tree dtb.
+
+if you use wsl on your snapdragon laptop to compile and install the kernel, the files you need to use in grub are:
+
+/boot/vmlinuz-6.11.0-rc3
+/boot/dtbs/6.11.0-rc3/qcom/x1e80100-lenovo-yoga-slim7x.dtb
+
+Or if you use another system, pick yours from the big ol' list:
+./arch/arm64/boot/dts/qcom/x1e78100-lenovo-thinkpad-t14s.dtb
+./arch/arm64/boot/dts/qcom/x1e80100-samsung-galaxy-book4-edge.dtb
+./arch/arm64/boot/dts/qcom/x1e80100-qcp.dtb
+./arch/arm64/boot/dts/qcom/x1e80100-crd.dtb
+./arch/arm64/boot/dts/qcom/x1e80100-lenovo-yoga-slim7x.dtb
+./arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15.dtb
+
+The kernel fork I used:
 https://git.codelinaro.org/abel.vesa/linux/-/tree/x1e80100-6.11-rc3-dp-wip-dbg?ref_type=heads
 https://git.codelinaro.org/abel.vesa/linux/-/archive/x1e80100-6.11-rc3-dp-wip-dbg/linux-x1e80100-6.11-rc3-dp-wip-dbg.tar.bz2
